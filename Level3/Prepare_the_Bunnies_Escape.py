@@ -45,7 +45,7 @@ Output:
     
  """
  #Code
- ef shortest(x, y, map):
+ def shortest(x, y, map):
     w = len(map[0])
     h = len(map)
     board = [[None for i in range(w)] for i in range(h)]
